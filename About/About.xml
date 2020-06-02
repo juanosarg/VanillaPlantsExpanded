@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Plants Expanded</name>
+	<author>Oskar Potocki, Chowder, Sarg Bjornson</author>
+	<supportedVersions>
+     
+      <li>1.1</li>
+   </supportedVersions>
+  
+	
+		<packageId>VanillaExpanded.VPlantsE</packageId>
+	
+	<description>
+Description here
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+
+Compatible with any other fishing mod
+Compatible with Advanced Biomes
+Compatible with Realistic Planets
+Compatible with Nature's Pretty Sweet
+Compatible with Mallorn Forest from LotR mod
+Extra compatibility with Alpha Biomes (19 specific fish)
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+v0.1: Pre-Alpha (02/06/20)
+
+</description>
+</ModMetaData>
