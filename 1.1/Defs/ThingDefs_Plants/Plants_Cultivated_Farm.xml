@@ -5,7 +5,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Onion</defName>
-		<label>onion</label>
+		<label>onion plant</label>
 		<description>An edible bulb of pungent, savory taste and smell with almost as many varieties as cooking applications. Cannot suffer the effects of blight.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -42,7 +42,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Pumpkin</defName>
-		<label>pumpkin</label>
+		<label>pumpkin plant</label>
 		<description>Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.</description>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -72,7 +72,7 @@
 			<topWindExposure>0.05</topWindExposure>
 			<growDays>10.4</growDays>
 			<immatureGraphicPath>Things/Plant/Crops/VCE_PumpkinPlantImmature</immatureGraphicPath>
-			<visualSizeRange>0.9~0.9</visualSizeRange>
+			<visualSizeRange>0.5~0.9</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
@@ -80,7 +80,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Pepper</defName>
-		<label>pepper</label>
+		<label>pepper plant</label>
 		<description>Tiny, spicy, crimson pods often used in sauces, relishes, or powders. While the flavor itself is mild the capsaicin contained inside means humans find them oddly addicting, if painful when consumed in mass. Animals are known to avoid eating them entirely.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -120,7 +120,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Peas</defName>
-		<label>peas</label>
+		<label>peas plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_RainAffected</thingClass>
 		<description>Spherical green seeds tucked safely away in a fleshy pod. Pea plants are known to be quite thirsty, and will benefit greatly from rainfall. Peas are also notable for having potentially long shelf-lives when dried properly.</description>
 		<statBases>
@@ -197,7 +197,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Cabbage</defName>
-		<label>cabbage</label>
+		<label>cabbage plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_StopsGrowingInToxins</thingClass>
 		<description>A somewhat hardy, leafy green vegetable, often chopped and then fermented or stewed. This particular strain seems highly resistant to airborne toxin and radiation.</description>
 		<statBases>
@@ -236,7 +236,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Beet</defName>
-		<label>beet</label>
+		<label>beet plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_WinterResistant</thingClass>
 		<description>An herb-like vegetable widely cultivated for humans and livestock alike, notably nutritious and historically used in dye making. While beets do require rich soil they are quite hearty, and will continue to grow very slowly through winter. They need to be planted during growing season, though.</description>
 		<statBases>
@@ -274,7 +274,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Tomato</defName>
-		<label>tomato</label>
+		<label>tomato plant</label>
 		<description>A series of juicy, glossy red fruits attached by vine, used commonly as a vegetable. Strong stewing releases natural sugars and mellows out acids contained within. Tomatoes are easily removed from the vine without having to uproot the plant.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -311,7 +311,7 @@
 	
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Wheat</defName>
-		<label>wheat</label>
+		<label>wheat plant</label>
 		<description>An amber cereal plant that takes almost an entire growing season to come to fruition. While fragile and time-consuming, this wheat has been genetically engineered to gentle break into flour with a mere touch.</description>
 		<statBases>
 			<MaxHitPoints>30</MaxHitPoints>

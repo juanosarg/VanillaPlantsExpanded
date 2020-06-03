@@ -46,7 +46,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/BiomeDef[defName = "Desert"]/wildPlants</xpath>
 		<value>
-			<VCE_Opuntia>1</VCE_Opuntia>
+			<VCE_Opuntia>0.01</VCE_Opuntia>
 			
 		</value>
 	</Operation>

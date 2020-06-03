@@ -27,6 +27,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -55,6 +56,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -83,6 +85,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -111,6 +114,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -142,6 +146,7 @@
 			<preferability>MealSimple</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<tasteThought/>
 			<optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
 		</ingestible>
 		<comps>
@@ -178,6 +183,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -206,6 +212,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -234,6 +241,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -262,6 +270,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
@@ -290,6 +299,7 @@
 
 		<ingestible>
 			<preferability>RawTasty</preferability>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>

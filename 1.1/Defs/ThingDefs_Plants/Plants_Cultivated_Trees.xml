@@ -39,9 +39,10 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawApple</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="TreeBase">
 		<defName>VCE_PeachTree</defName>
 		<label>peach tree</label>
@@ -78,14 +79,15 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawPeach</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="TreeBase">
 		<defName>VCE_CherryTree</defName>
 		<label>cherry tree</label>
 		<description>A tree bearing tiny purple-red sweet cherries. Cherry trees are notable for requiring a brief freezing season, as such their fruit quickly became a favorite among northern occidental cultures. This particular genus also blooms into a pleasing array of pink flowers each winter.</description>
-			<thingClass>VanillaPlantsExpanded.Plant_WinterBlooming</thingClass>
+		<thingClass>VanillaPlantsExpanded.Plant_WinterBlooming</thingClass>
 		<graphicData>
 			<texPath>Things/Plant/Trees/VCE_TreeCherry</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -118,9 +120,10 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawCherry</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="TreeBase">
 		<defName>VCE_PlumTree</defName>
 		<label>plum tree</label>
@@ -157,9 +160,10 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawPlum</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="TreeBase">
 		<defName>VCE_PearTree</defName>
 		<label>pear tree</label>
@@ -198,10 +202,11 @@
 			<harvestedThingDef>VCE_RawPear</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
 			<interferesWithRoof>false</interferesWithRoof>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
-		<ThingDef ParentName="TreeBase">
+
+	<ThingDef ParentName="TreeBase">
 		<defName>VCE_Opuntia</defName>
 		<label>opuntia</label>
 		<description>More often referred to as the “prickly pear” cactus, this plant is known to be quite bountiful even in hot, dry deserts. The pads of this tall, spiny cactus bloom pink, melon-like edible fruits, used historically for both snacking as well as medicine by desert natives.</description>
@@ -214,7 +219,7 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-		
+
 		<statBases>
 			<Beauty>2</Beauty>
 			<Nutrition>1.25</Nutrition>
@@ -239,10 +244,11 @@
 			<harvestedThingDef>VCE_RawPricklyPear</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
 			<blockAdjacentSow>false</blockAdjacentSow>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
-			<ThingDef ParentName="TreeBase">
+
+	<ThingDef ParentName="TreeBase">
 		<defName>VCE_BearBerryBush</defName>
 		<label>bearberry bush</label>
 		<description>A low-lying bush speckled with pink berries that thrives in poor, even sandy soil. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable. This plant can be grown in pots.</description>
@@ -255,7 +261,7 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-		
+
 		<statBases>
 			<Beauty>0</Beauty>
 			<Nutrition>1.25</Nutrition>
@@ -268,7 +274,7 @@
 			<sowMinSkill>6</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
-				 <li>Decorative</li>
+				<li>Decorative</li>
 			</sowTags>
 			<fertilityMin>0.7</fertilityMin>
 			<topWindExposure>0.05</topWindExposure>
@@ -280,7 +286,7 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_Bearberry</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
-			
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
 
@@ -297,7 +303,7 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-	
+
 		<statBases>
 			<Beauty>2</Beauty>
 			<Nutrition>1.25</Nutrition>
@@ -321,11 +327,11 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawBanana</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
-		
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
-	
-		<ThingDef ParentName="TreeBase">
+
+	<ThingDef ParentName="TreeBase">
 		<defName>VCE_OrangeTree</defName>
 		<label>orange tree</label>
 		<description>A bushy, semi-tropical tree dotted with orange fruits well equipped for growing in humid environments and in wet soil. Spherical and perforated, oranges are notoriously annoying to peel and quite pulpy, but known as one of the absolute juiciest fruits with a bright tang and sour aftertaste.</description>
@@ -339,7 +345,7 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-	
+
 		<statBases>
 			<Beauty>2</Beauty>
 			<Nutrition>1.25</Nutrition>
@@ -363,7 +369,7 @@
 			<harvestYield>50</harvestYield>
 			<harvestedThingDef>VCE_RawOrange</harvestedThingDef>
 			<harvestFailable>true</harvestFailable>
-		
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
 		</plant>
 	</ThingDef>
 
