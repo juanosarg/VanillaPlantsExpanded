@@ -248,7 +248,7 @@
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>VCE_RawBanana</defName>
-		<label>bearberries</label>
+		<label>bananas</label>
 		<description>These are small, pink berries known as bearberries. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
