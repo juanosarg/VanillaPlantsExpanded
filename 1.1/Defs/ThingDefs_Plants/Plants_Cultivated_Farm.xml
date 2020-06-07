@@ -101,7 +101,7 @@
 			<fertilitySensitivity>1</fertilitySensitivity>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
-			<maxMeshCount>1</maxMeshCount>
+			<maxMeshCount>4</maxMeshCount>
 			<harvestedThingDef>VCE_RawPepper</harvestedThingDef>
 			<harvestYield>10</harvestYield>
 			<harvestWork>200</harvestWork>
@@ -112,7 +112,7 @@
 			<topWindExposure>0.1</topWindExposure>
 			<growDays>5.2</growDays>
 			<immatureGraphicPath>Things/Plant/Crops/VCE_PepperPlantImmature</immatureGraphicPath>
-			<visualSizeRange>0.3~1</visualSizeRange>
+			<visualSizeRange>0.3~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
