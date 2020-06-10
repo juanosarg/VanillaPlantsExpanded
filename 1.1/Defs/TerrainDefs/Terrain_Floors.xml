@@ -7,6 +7,8 @@
   <TerrainDef>
     <defName>VCE_TilledSoil</defName>
     <label>tilled soil</label>
+	<description>Tillage is the agricultural preparation of soil by mechanical agitation of various types, increasing terrain fertility. Tilling soil can only be done on normal soil (not rich soil). When a plant is harvested on a plowed soil, the floor becomes a normal soil again and needs to be plowed again manually.</description>
+
     <texturePath>Terrains/VCE_TilledSoil</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>350</renderPrecedence>
@@ -15,7 +17,9 @@
 	  <filthAcceptanceMask>
       <li>Unnatural</li>
     </filthAcceptanceMask>
-	 <designationCategory>Floors</designationCategory>
+	 <designationCategory>Orders</designationCategory>
+	 <uiIconPath>UI/VCE_Plow</uiIconPath>
+	<constructEffect>ConstructDirt</constructEffect>
     <statBases>
       <Beauty>-1</Beauty>
       <Cleanliness>-1</Cleanliness>
@@ -42,9 +46,9 @@
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
-	  <researchPrerequisites>
+<!--	  <researchPrerequisites>
       <li>VCE_Tillage</li>
-    </researchPrerequisites>
+    </researchPrerequisites>-->
 	 <placeWorkers>
       <li>VanillaPlantsExpanded.PlaceWorker_TilledSoil</li>
     </placeWorkers>
