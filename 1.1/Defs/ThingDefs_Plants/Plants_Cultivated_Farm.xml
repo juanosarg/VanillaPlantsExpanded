@@ -120,7 +120,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Peas</defName>
-		<label>peas plant</label>
+		<label>pea plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_RainAffected</thingClass>
 		<description>Spherical green seeds tucked safely away in a fleshy pod. Pea plants are known to be quite thirsty, and will benefit greatly from rainfall. Peas are also notable for having potentially long shelf-lives when dried properly.</description>
 		<statBases>
