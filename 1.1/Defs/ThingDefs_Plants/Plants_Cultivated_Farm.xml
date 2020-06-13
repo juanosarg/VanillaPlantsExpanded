@@ -347,7 +347,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Tomato</defName>
 		<label>tomato plant</label>
-		<description>A series of juicy, glossy red fruits attached by vine, used commonly as a vegetable. Strong stewing releases natural sugars and mellows out acids contained within. Tomatoes are easily removed from the vine without having to uproot the plant. Tomatoes require rich soil to grow.</description>
+		<description>A series of juicy, glossy red fruits attached by vine, used commonly as a vegetable. Strong stewing releases natural sugars and mellows out acids contained within. Tomatoes are easily removed from the vine without having to uproot the plant.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
