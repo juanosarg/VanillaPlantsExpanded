@@ -369,7 +369,7 @@
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
 			<harvestYield>10</harvestYield>
 			<harvestWork>200</harvestWork>
-				<sowMinSkill>8</sowMinSkill>
+				<sowMinSkill>5</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
