@@ -269,7 +269,7 @@
 		<ingestible />
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<growDays>32.51</growDays>
+			<growDays>25</growDays>
 			<visualSizeRange>0.8~2.0</visualSizeRange>
 			<sowMinSkill>6</sowMinSkill>
 			<sowTags>

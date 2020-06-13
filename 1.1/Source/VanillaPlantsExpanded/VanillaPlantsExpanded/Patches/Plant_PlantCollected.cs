@@ -18,12 +18,17 @@ namespace VanillaPlantsExpanded
         public static void RemoveTilled(ref Plant __instance)
         {
 
-            if (__instance.Map.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil")
+           
+                if (__instance.Map.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil")
 
-            {
-                __instance.Map.terrainGrid.RemoveTopLayer(__instance.Position);
+                {
+                
+                    __instance.Map.terrainGrid.RemoveTopLayer(__instance.Position);
 
-            }
+                }
+            
+
+           
 
 
 
