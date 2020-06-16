@@ -15,6 +15,9 @@
 			<texPath>Things/Items/Raw/VCE_Apples</texPath>
 
 		</graphicData>
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>1.2</MarketValue>
 		</statBases>
@@ -38,7 +41,9 @@
 		<description>An edible juicy fruit called peach or nectarine. A ripe peach will have a fragrant aroma and be delicious eaten fresh out of hand.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Peaches</texPath>
@@ -67,7 +72,9 @@
 		<description>Tiny purple-red sweet cherries. Cherries are notable for requiring a brief freezing season, as such they quickly became a favorite among northern occidental cultures.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Cherries</texPath>
@@ -96,7 +103,9 @@
 		<description>A smooth-skinned purple fruit. Many cultures dry-age plums into prunes for long-term preservation. Instead of rotting, once the 15 days have passed the plums will dry into prunes, which are considered preserved food.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Plums</texPath>
@@ -131,7 +140,7 @@
 		</graphicData>
 		<thingClass>ThingWithComps</thingClass>
 		<thingCategories>
-			<li>Foods</li>
+			<li>VCE_Fruit</li>
 		</thingCategories>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
@@ -165,7 +174,9 @@
 		<description>Crispy green pears. While at first similar to apples, pears are slightly more fibrous and less sweet.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Pears</texPath>
@@ -194,7 +205,9 @@
 		<description>Pink, melon-like edible fruits, used historically for both snacking as well as medicine by desert natives.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_PricklyPears</texPath>
@@ -223,7 +236,9 @@
 		<description>These are small, pink berries known as bearberries. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_BearBerries</texPath>
@@ -252,7 +267,9 @@
 		<description>Yellow, elongated berries, easily peeled to reveal a deeply sweet, nearly mushy flesh inside. They have been a favorite of both humans and other primates across the tropics for millenia.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Bananas</texPath>
@@ -281,7 +298,9 @@
 		<description>Spherical and perforated, oranges are notoriously annoying to peel and quite pulpy, but known as one of the absolute juiciest fruits with a bright tang and sour aftertaste.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
-
+		<thingCategories>
+			<li>VCE_Fruit</li>
+		</thingCategories>
 		<graphicData>
 
 			<texPath>Things/Items/Raw/VCE_Oranges</texPath>
