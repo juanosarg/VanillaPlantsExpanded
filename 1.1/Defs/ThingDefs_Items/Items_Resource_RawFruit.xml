@@ -3,7 +3,22 @@
 <Defs>
 
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef Abstract="True" Name="VCE_FruitFoodRawBase" ParentName="OrganicProductBase">
+		<ingestible>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		
+	</ThingDef>
+
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawApple</defName>
 		<label>apples</label>
 		<description>Glossy, red apples. Apples have been used as snacking food, a dessert ingredient, and brewed into cider since early mankind.</description>
@@ -35,7 +50,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawPeach</defName>
 		<label>peaches</label>
 		<description>An edible juicy fruit called peach or nectarine. A ripe peach will have a fragrant aroma and be delicious eaten fresh out of hand.</description>
@@ -66,7 +81,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawCherry</defName>
 		<label>cherries</label>
 		<description>Tiny purple-red sweet cherries. Cherries are notable for requiring a brief freezing season, as such they quickly became a favorite among northern occidental cultures.</description>
@@ -97,7 +112,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawPlum</defName>
 		<label>plums</label>
 		<description>A smooth-skinned purple fruit. Many cultures dry-age plums into prunes for long-term preservation. Instead of rotting, once the 15 days have passed the plums will dry into prunes, which are considered preserved food.</description>
@@ -128,7 +143,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawPrunes</defName>
 		<label>prunes</label>
 		<description>Dried plums. Prunes take a very long time to deteriorate.</description>
@@ -168,7 +183,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawPear</defName>
 		<label>pears</label>
 		<description>Crispy green pears. While at first similar to apples, pears are slightly more fibrous and less sweet.</description>
@@ -199,7 +214,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawPricklyPear</defName>
 		<label>prickly pears</label>
 		<description>Pink, melon-like edible fruits, used historically for both snacking as well as medicine by desert natives.</description>
@@ -230,7 +245,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_Bearberry</defName>
 		<label>bearberries</label>
 		<description>These are small, pink berries known as bearberries. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable.</description>
@@ -261,7 +276,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawBanana</defName>
 		<label>bananas</label>
 		<description>Yellow, elongated berries, easily peeled to reveal a deeply sweet, nearly mushy flesh inside. They have been a favorite of both humans and other primates across the tropics for millenia.</description>
@@ -292,7 +307,7 @@
 		</ingestible>    
 	</ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="VCE_FruitFoodRawBase">
 		<defName>VCE_RawOrange</defName>
 		<label>oranges</label>
 		<description>Spherical and perforated, oranges are notoriously annoying to peel and quite pulpy, but known as one of the absolute juiciest fruits with a bright tang and sour aftertaste.</description>
