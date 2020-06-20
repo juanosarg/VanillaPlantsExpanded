@@ -9,33 +9,18 @@ using System;
 
 namespace VanillaPlantsExpanded
 {
-
     [HarmonyPatch(typeof(Plant))]
     [HarmonyPatch("PlantCollected")]
     public static class VanillaCookingExpanded_Plant_PlantCollected_Patch
     {
         [HarmonyPrefix]
         public static void RemoveTilled(ref Plant __instance)
-        {
-
-           
-                if (__instance.Map.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil")
-
-                {
-                
+        {           
+                if (__instance.Map.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil"){
+                    if (__instance.IsCrop) {
                     __instance.Map.terrainGrid.RemoveTopLayer(__instance.Position);
-
+                    }                    
                 }
-            
-
-           
-
-
-
-
         }
-
-
     }
-
 }
