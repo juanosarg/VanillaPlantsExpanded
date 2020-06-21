@@ -24,12 +24,16 @@ namespace VanillaPlantsExpanded
             for (int i = 0; i < num; i++)
             {
                 IntVec3 c = this.Position + GenRadial.RadialPattern[i];
-                TerrainDef terrain = c.GetTerrain(map);
-               
-                if (terrain != null && terrain.IsRiver)
-                {
-                    numberOfRiver++;
+                if (c.InBounds(map)) {
+                    TerrainDef terrain = c.GetTerrain(map);
+
+                    if (terrain != null && terrain.IsRiver)
+                    {
+                        numberOfRiver++;
+                    }
+
                 }
+                
 
 
               
