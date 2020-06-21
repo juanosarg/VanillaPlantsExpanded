@@ -53,5 +53,63 @@ namespace VanillaPlantsExpanded
                 return 1f;
             }
         }
+
+        public override string GetInspectString()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            if (this.LifeStage == PlantLifeStage.Growing)
+            {
+                stringBuilder.AppendLine("PercentGrowth".Translate(this.GrowthPercentString));
+                stringBuilder.AppendLine("GrowthRate".Translate() + ": " + this.GrowthRate.ToStringPercent());
+                if (!this.Blighted)
+                {
+                    if (this.Resting)
+                    {
+                        stringBuilder.AppendLine("PlantResting".Translate());
+                    }
+                    if (!this.HasEnoughLightToGrow)
+                    {
+                        stringBuilder.AppendLine("PlantNeedsLightLevel".Translate() + ": " + this.def.plant.growMinGlow.ToStringPercent());
+                    }
+                    float growthRateFactor_Temperature = this.GrowthRateFactor_TemperatureHot;
+                    if (growthRateFactor_Temperature < 0.99f)
+                    {
+                        if (growthRateFactor_Temperature < 0.01f)
+                        {
+                            stringBuilder.AppendLine("OutOfIdealTemperatureRangeNotGrowing".Translate());
+                        }
+                        else
+                        {
+                            stringBuilder.AppendLine("OutOfIdealTemperatureRange".Translate(Mathf.RoundToInt(growthRateFactor_Temperature * 100f).ToString()));
+                        }
+                    }
+                }
+            }
+            else if (this.LifeStage == PlantLifeStage.Mature)
+            {
+                if (this.HarvestableNow)
+                {
+                    stringBuilder.AppendLine("ReadyToHarvest".Translate());
+                }
+                else
+                {
+                    stringBuilder.AppendLine("Mature".Translate());
+                }
+            }
+            if (this.DyingBecauseExposedToLight)
+            {
+                stringBuilder.AppendLine("DyingBecauseExposedToLight".Translate());
+            }
+            if (this.Blighted)
+            {
+                stringBuilder.AppendLine("Blighted".Translate() + " (" + this.Blight.Severity.ToStringPercent() + ")");
+            }
+            string text = base.InspectStringPartsFromComps();
+            if (!text.NullOrEmpty())
+            {
+                stringBuilder.Append(text);
+            }
+            return stringBuilder.ToString().TrimEndNewlines();
+        }
     }
 }

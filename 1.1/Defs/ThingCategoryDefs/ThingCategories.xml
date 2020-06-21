@@ -4,7 +4,7 @@
  
     <ThingCategoryDef>
       <defName>VCE_Fruit</defName>
-      <label>fruit</label>
+      <label>raw fruits</label>
       <parent>PlantFoodRaw</parent>
       <resourceReadoutRoot>true</resourceReadoutRoot>
       <iconPath>Things/Items/Raw/VCE_Oranges</iconPath>
