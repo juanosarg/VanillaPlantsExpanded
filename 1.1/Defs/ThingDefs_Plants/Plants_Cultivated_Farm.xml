@@ -232,7 +232,7 @@
 		<defName>VCE_Eggplant</defName>
 		<label>eggplant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_HighTempAffected</thingClass>
-		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish as a meat substitute. Flourishes in warm weather.</description>
+		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish. Flourishes in warm weather.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.3</Nutrition>

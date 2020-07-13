@@ -116,7 +116,7 @@
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>VCE_RawEggplant</defName>
 		<label>eggplants</label>
-		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish as a meat substitute.</description>
+		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
 
