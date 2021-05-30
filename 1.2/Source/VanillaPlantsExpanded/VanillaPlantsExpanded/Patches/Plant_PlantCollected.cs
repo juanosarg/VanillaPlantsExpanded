@@ -1,11 +1,6 @@
 ﻿using HarmonyLib;
 using RimWorld;
-using System.Reflection;
 using Verse;
-using System.Collections.Generic;
-using RimWorld.Planet;
-using System.Linq;
-using System;
 
 namespace VanillaPlantsExpanded
 {
@@ -14,13 +9,19 @@ namespace VanillaPlantsExpanded
     public static class VanillaCookingExpanded_Plant_PlantCollected_Patch
     {
         [HarmonyPrefix]
-        public static void RemoveTilled(ref Plant __instance)
-        {           
-                if (__instance.Map.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil"){
-                    if (__instance.IsCrop) {
-                    __instance.Map.terrainGrid.RemoveTopLayer(__instance.Position);
-                    }                    
+        public static void AccessMap(Plant __instance, out Map __state)
+        {
+            __state = __instance.Map;
+        }
+
+        [HarmonyPostfix]
+        public static void RemoveTilled(Plant __instance, Map __state)
+        {
+            if (__state.terrainGrid.TerrainAt(__instance.Position).defName == "VCE_TilledSoil") {
+                if (__instance.def.plant.HarvestDestroys) {
+                    __state.terrainGrid.RemoveTopLayer(__instance.Position);
                 }
+            }
         }
     }
 }
