@@ -33,6 +33,7 @@
 				<li>Ground</li>
 			</sowTags>
 			<neverBlightable>true</neverBlightable>
+			
 		</plant>
 	</ThingDef>
 
@@ -116,6 +117,7 @@
 			<wildClusterWeight>300</wildClusterWeight>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -153,6 +155,7 @@
 			<visualSizeRange>0.4~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -191,6 +194,7 @@
 			<visualSizeRange>0.5~0.9</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -231,6 +235,7 @@
 			<visualSizeRange>0.3~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -269,6 +274,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -308,6 +314,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -347,6 +354,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -385,6 +393,7 @@
 			<visualSizeRange>0.3~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -423,6 +432,7 @@
 			<immatureGraphicPath>Things/Plant/Crops/VCE_TomatoPlantImmature</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 

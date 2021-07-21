@@ -81,7 +81,7 @@
 		</comps>
 
 		<ingestible>
-			<foodType>OmnivoreHuman</foodType>
+			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
 	
