@@ -14,7 +14,8 @@ namespace VanillaPlantsExpanded
     public class Plant_WinterBlooming : Plant
     {
         private static Graphic GraphicSowing = GraphicDatabase.Get<Graphic_Single>("Things/Plant/Plant_Sowing", ShaderDatabase.Cutout, Vector2.one, Color.white);
-        private static Graphic GraphicWinter = GraphicDatabase.Get<Graphic_Random>("Things/Plant/Trees/VCE_TreeCherry_Blossomed", ShaderDatabase.Cutout, Vector2.one, Color.white);
+ 
+        private static Graphic GraphicWinter = GraphicDatabase.Get<Graphic_Random>("Things/Plant/Trees/VCE_TreeCherry_Blossomed", ShaderDatabase.CutoutPlant, Vector2.one, Color.white);
 
 
         public override Graphic Graphic
@@ -45,4 +46,7 @@ namespace VanillaPlantsExpanded
         }
 
     }
+
+
+
 }

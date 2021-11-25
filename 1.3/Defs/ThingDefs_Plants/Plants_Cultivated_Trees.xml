@@ -88,6 +88,7 @@
 		<label>cherry tree</label>
 		<description>A tree bearing tiny purple-red sweet cherries. Cherry trees are notable for requiring a brief freezing season, as such their fruit quickly became a favorite among northern occidental civilizations. This particular genus is quite beautiful, speckled with pink blossoms throughout, blooming fully each winter.</description>
 		<thingClass>VanillaPlantsExpanded.Plant_WinterBlooming</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Plant/Trees/VCE_TreeCherry</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
