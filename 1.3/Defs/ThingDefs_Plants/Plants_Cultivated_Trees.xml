@@ -18,6 +18,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -58,6 +59,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -100,6 +102,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<Beauty>5</Beauty>
+			<BeautyOutdoors>5</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -140,6 +143,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -181,6 +185,7 @@
 		<blockWind>false</blockWind>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -223,6 +228,7 @@
 		<neverMultiSelect>False</neverMultiSelect>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -265,6 +271,7 @@
 		<neverMultiSelect>False</neverMultiSelect>
 		<statBases>
 			<Beauty>0</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -307,6 +314,7 @@
 
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
@@ -349,6 +357,7 @@
 
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
