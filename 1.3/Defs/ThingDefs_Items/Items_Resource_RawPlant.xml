@@ -223,6 +223,7 @@
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
 			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
 		</ingestible>    
 	</ThingDef>
 	
